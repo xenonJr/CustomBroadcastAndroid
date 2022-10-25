@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">489Assignment2</string>
+
+    <string-array name="planets_array">
+        <item>1. Custom broadcast receiver</item>
+        <item>2. Wifi state change receiver.</item>
+        <item>3. System battery notification receiver.</item>
+    </string-array>
+</resources>

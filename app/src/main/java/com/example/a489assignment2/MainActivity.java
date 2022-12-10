@@ -3,6 +3,7 @@ package com.example.a489assignment2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -31,6 +32,23 @@ public class MainActivity extends AppCompatActivity {
         proceed.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                switch (choice) {
+                    case 0:
+                        Intent intent = new Intent(getApplicationContext(),SecondActivity.class);
+                        intent.putExtra("Choice",0);
+                        startActivity(intent);
+                        break;
+                    case 1:
+                        Intent intent2 = new Intent(getApplicationContext(),ThirdActivity.class);
+                        intent2.putExtra("Choice",1);
+                        startActivity(intent2);
+                        break;
+                    case 2:
+                        Intent intent3 = new Intent(getApplicationContext(),SecondActivity.class);
+                        intent3.putExtra("Choice",2);
+                        startActivity(intent3);
+                        break;
+                }
                 Toast.makeText(MainActivity.this, "Choice is : " + choice, Toast.LENGTH_SHORT).show();
             }
         });

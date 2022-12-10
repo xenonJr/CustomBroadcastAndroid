@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThirdActivity">
+
+    <TextView
+        android:id="@+id/textInput"
+        android:layout_width="338dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:text="Given Input :  "
+        android:textSize="25dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/bp"
+        android:layout_width="352dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Activity 2"
+        android:textSize="25dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/compare_bp"
+        android:layout_width="344dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Activity 2"
+        android:textSize="25dp"
+        android:textStyle="bold"></TextView>
+
+</LinearLayout>
